@@ -1,18 +1,16 @@
 import React from 'react';
+import marcLogo from './marcLogo.png';
+import './Navigation.css';
 
 const Navigation = () => {
 
 	return (
-		<div className='container'>
-			<div className='smallLogoComponent'>
-				<img className='marcLogo' alt='marcLogo'/> 
-			</div>
-			<div className='about'>
-				About
-			</div>
-			<div className='contact'>	
-				Contact
-			</div>
+		<div>
+			<ul className='navBar'>
+				<li className='logo'><img className='marcLogo' alt='marcLogo' src={marcLogo}/></li>
+        <li className='menuItems'>About</li>
+        <li className='menuItems'>Contact</li>
+			</ul>
 		</div>
 	);
 };
