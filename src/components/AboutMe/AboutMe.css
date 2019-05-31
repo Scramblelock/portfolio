@@ -1,0 +1,19 @@
+.aboutMe {
+	padding: 10% 0 10% 0;
+}
+
+.header {
+	font-family: Helvetica Neue;
+	font-weight: bold;
+	font-size: 36px;
+	padding: 10%;
+}
+
+.aboutText {
+	font-family: AvenirNext-Regular;
+	font-size: 20px;
+	color: #000000;
+	letter-spacing: -0.38px;
+	text-align: center;
+	padding: 0 10% 0 10%;
+}
