@@ -7,9 +7,9 @@ const Navigation = () => {
 	return (
 		<div>
 			<ul className='navBar'>
-				<li className='logo'><img className='marcLogo' alt='marcLogo' src={marcLogo}/></li>
-        <li className='menuItems'>About</li>
-        <li className='menuItems'>Contact</li>
+				<li className='logo'><a href="/"><img className='marcLogo' alt='marcLogo' src={marcLogo}/></a></li>
+        <li className='menuItems'><a href="#about">About</a></li>
+        <li className='menuItems'><a href="#contact">Contact Me</a></li>
 			</ul>
 		</div>
 	);
