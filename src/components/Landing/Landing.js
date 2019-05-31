@@ -5,13 +5,13 @@ import './Landing.css';
 
 const content = [
 	{
-		image: 'https://cdn.filestackcontent.com/ARVNFDkIFTCy2nOXvYSoLz/resize=width:1200,height:540,fit:scale/output=secure:true/security=policy:eyJleHBpcnkiOiAxNTU5MzI1NjUwLCAiY2FsbCI6IFsicmVhZCIsICJzdGF0IiwgImNvbnZlcnQiLCAicGljayIsICJzdG9yZSJdfQ==,signature:682e9b8d7eede33b13b7708fe04f1b43fd2b6382c860e3975caea1fc0b97c1ac/7F6Y9rG4QwHCKwLFeSED'
+		image: 'https://cdn.filestackcontent.com/ANI9fS5qSayY5tX9tYEmZz/resize=width:1200,height:520,fit:scale/output=secure:true/security=policy:eyJleHBpcnkiOiAxNTU5MzMyMjA4LCAiY2FsbCI6IFsicmVhZCIsICJzdGF0IiwgImNvbnZlcnQiLCAicGljayIsICJzdG9yZSJdfQ==,signature:dbfb839bb37b2cb8dacc4143ff59b7054ac409b0c65af9c2d980f04203bdcda4/txQLhr73TKapsp3kGaeY'
 	},
 	{
-		image: 'https://cdn.filestackcontent.com/ARVNFDkIFTCy2nOXvYSoLz/resize=width:1200,height:520,fit:scale/output=secure:true/security=policy:eyJleHBpcnkiOiAxNTU5MzI1NjUwLCAiY2FsbCI6IFsicmVhZCIsICJzdGF0IiwgImNvbnZlcnQiLCAicGljayIsICJzdG9yZSJdfQ==,signature:682e9b8d7eede33b13b7708fe04f1b43fd2b6382c860e3975caea1fc0b97c1ac/qmK8311eQauMynoLj5Aq'
+		image: 'https://cdn.filestackcontent.com/ANI9fS5qSayY5tX9tYEmZz/resize=width:1200,height:520,fit:scale/output=secure:true/security=policy:eyJleHBpcnkiOiAxNTU5MzMyMjA4LCAiY2FsbCI6IFsicmVhZCIsICJzdGF0IiwgImNvbnZlcnQiLCAicGljayIsICJzdG9yZSJdfQ==,signature:dbfb839bb37b2cb8dacc4143ff59b7054ac409b0c65af9c2d980f04203bdcda4/zk4k699zTrKajLsTNxSG'
 	},
 	{
-		image: 'https://cdn.filestackcontent.com/ARVNFDkIFTCy2nOXvYSoLz/resize=width:1200,height:520,fit:scale/output=secure:true/security=policy:eyJleHBpcnkiOiAxNTU5MzI1NjUwLCAiY2FsbCI6IFsicmVhZCIsICJzdGF0IiwgImNvbnZlcnQiLCAicGljayIsICJzdG9yZSJdfQ==,signature:682e9b8d7eede33b13b7708fe04f1b43fd2b6382c860e3975caea1fc0b97c1ac/q4jA4qTxWdygSm4ZtT1A'
+		image: 'https://cdn.filestackcontent.com/ANI9fS5qSayY5tX9tYEmZz/resize=width:1200,height:520,fit:scale/output=secure:true/security=policy:eyJleHBpcnkiOiAxNTU5MzMyMjA4LCAiY2FsbCI6IFsicmVhZCIsICJzdGF0IiwgImNvbnZlcnQiLCAicGljayIsICJzdG9yZSJdfQ==,signature:dbfb839bb37b2cb8dacc4143ff59b7054ac409b0c65af9c2d980f04203bdcda4/sl1Nha93RbmCcvu0Tpak'
 	} 
 ]
 
