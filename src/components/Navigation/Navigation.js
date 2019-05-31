@@ -9,7 +9,7 @@ const Navigation = () => {
 			<ul className='navBar'>
 				<li className='logo'><a href="/"><img className='marcLogo' alt='marcLogo' src={marcLogo}/></a></li>
         <li className='menuItems'><a href="#about">About</a></li>
-        <li className='menuItems'><a href="#contact">Contact Me</a></li>
+        <li className='menuItems'><a href="#contact">Contact</a></li>
 			</ul>
 		</div>
 	);
