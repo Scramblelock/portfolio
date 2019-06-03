@@ -15,12 +15,84 @@ const Projects = () => {
 				Projects
 			</div>
 			<div className='projectGrid'>
-				<div className='projectBox'><img src={krang} alt=''/></div>
-				<div className='projectBox'><img src={robot} alt=''/></div>
-				<div className='projectBox'><img src={hackthenews} alt=''/></div>
-				<div className='projectBox'><img src={toronto} alt=''/></div>
-				<div className='projectBox'><img src={huddle} alt=''/></div>
-				<div className='projectBox'><img src={locking4life} alt=''/></div>
+				<div className='projectBox'>
+					<a 
+						href='https://smart-brain-marc.herokuapp.com/' 
+						target='_blank' 
+						rel='noopener noreferrer'
+					>
+						<img src={krang} alt=''/>
+						<div className='overlay'>
+							Smart Brain
+							<p>React + Node.js</p>
+						</div>
+					</a>
+				</div>
+				<div className='projectBox'>
+					<a 
+						href='https://scramblelock.github.io/robofriends-redux-pwa/' 
+						target='_blank' 
+						rel='noopener noreferrer'
+					>
+						<img src={robot} alt=''/>
+						<div className='overlay'>
+							Robofriends
+							<p>React + Redux</p>
+						</div>
+					</a>
+				</div>
+				<div className='projectBox'>
+					<a 
+						href='https://scramblelock.github.io/hack-the-news/' 
+						target='_blank' 
+						rel='noopener noreferrer'
+					>
+						<img src={hackthenews} alt=''/>
+						<div className='overlay'>
+							Hack The News
+							<p>React</p>
+						</div>
+					</a>
+				</div>
+				<div className='projectBox'>
+					<a 
+						href='https://scramblelock.github.io/toronto-waste-lookup/' 
+						target='_blank' 
+						rel='noopener noreferrer'
+					>
+						<img src={toronto} alt=''/>
+						<div className='overlay'>
+							Toronto Waste Lookup
+							<p>React</p>
+						</div>
+					</a>
+				</div>
+				<div className='projectBox'>
+					<a 
+						href='https://scramblelock.github.io/coding_challenge_11/' 
+						target='_blank' 
+						rel='noopener noreferrer'
+					>
+						<img src={huddle} alt=''/>
+						<div className='overlay'>
+							Huddle
+							<p>HTML + CSS + Bootstrap</p>
+						</div>
+					</a>
+				</div>
+				<div className='projectBox'>
+					<a 
+						href='https://scramblelock.com' 
+						target='_blank' 
+						rel='noopener noreferrer'
+					>
+						<img src={locking4life} alt=''/>
+						<div className='overlay'>
+							Scramblelock
+							<p>Wordpress + HTML + CSS</p>
+						</div>
+					</a>
+				</div>
 			</div>
 		</div>
 	);
