@@ -8,3 +8,24 @@
 	font-size: 36px;
 	padding: 10%;
 }
+
+.skillsList {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	font-family: AvenirNext-Regular;
+	font-size: 20px;
+}
+
+.skillsList ul {
+	padding-left: 0;
+}
+
+.skillsList li {
+	list-style: none;
+	padding: 15px 0;
+}
+
+.title {
+	font-size: 25px;
+	font-weight: 600;
+}
