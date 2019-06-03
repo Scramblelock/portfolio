@@ -3,8 +3,14 @@
 	text-decoration: none;
 	list-style: none;
 	justify-content: center;
+	padding-left: 0;
 }
 
-.socialIcons li {
-	padding: 2px;
+.socialIcons img {
+	height: 75%;
+}
+
+.footer p {
+	font-family: Avenir Next;
+	font-size: 20px;
 }
