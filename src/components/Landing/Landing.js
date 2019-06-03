@@ -22,7 +22,12 @@ const Landing = () => {
 			<div className='textHello'>
 				Hello. my name is
 			</div>
-			<Slider className='slider' autoplay={3000}>
+			<Slider 
+				className='slider' 
+				autoplay={3000} 
+				previousButton={null} 
+				nextButton={null}
+			>
 			  {content.map((item, index) => (
 			  	<div 
 			  		key={index}
