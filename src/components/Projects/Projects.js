@@ -24,7 +24,7 @@ const Projects = () => {
 						<img src={krang} alt=''/>
 						<div className='overlay'>
 							Smart Brain
-							<p>React + Node.js + Express + PostgreSQL</p>
+							<p>React + Node.js</p>
 						</div>
 					</a>
 				</div>
@@ -50,7 +50,7 @@ const Projects = () => {
 						<img src={hackthenews} alt=''/>
 						<div className='overlay'>
 							Hack The News
-							<p>React + Axios</p>
+							<p>React</p>
 						</div>
 					</a>
 				</div>
