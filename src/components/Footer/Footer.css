@@ -1,10 +1,10 @@
-.footer {
-	display: flex;
-}
-
 .socialIcons {
 	display: flex;
 	text-decoration: none;
 	list-style: none;
 	justify-content: center;
+}
+
+.socialIcons li {
+	padding: 2px;
 }
