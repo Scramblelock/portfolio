@@ -24,7 +24,7 @@ const Projects = () => {
 						<img src={krang} alt=''/>
 						<div className='overlay'>
 							Smart Brain
-							<p>React + Node.js + PostgreSQL</p>
+							<p>React + Node.js + Express + PostgreSQL</p>
 						</div>
 					</a>
 				</div>
