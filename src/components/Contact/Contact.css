@@ -62,3 +62,7 @@
 .buttonPrimary:hover {
 	cursor: pointer;
 }
+
+.photo img {
+	width: 100%;
+}
