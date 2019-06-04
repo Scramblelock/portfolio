@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Contact.css';
 import canadianTuxedo from './canadianTuxedo.jpg';
+import axios from 'axios';
 
 class Contact extends Component {
 	state = {
@@ -11,6 +12,35 @@ class Contact extends Component {
 		buttonText: 'Send Message'
 	}
 	
+	formSubmit = (e) => {
+	  e.preventDefault();
+
+	  this.setState({ buttonText: '...sending' })
+
+	  let data = {
+	      name: this.state.name,
+	      email: this.state.email,
+	      message: this.state.message
+	  }
+	  
+	  axios.post('https://nodejs-express-gml22oclh.now.sh/', data)
+	  .then( res => {
+	      this.setState({ sent: true }, this.resetForm())
+	  })
+	  .catch( () => {
+	    console.log('Message not sent')
+	  })
+	}
+
+	resetForm = () => {
+    this.setState({
+        name: '',
+        message: '',
+        email: '',
+        buttonText: 'Message Sent'
+    })
+	}
+
 	render() {
 		return (
 			<div className='contact'>
