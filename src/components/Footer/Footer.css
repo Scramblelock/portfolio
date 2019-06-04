@@ -6,12 +6,9 @@
 	padding-left: 0;
 }
 
-.socialIcons li {
-	padding: 5px;
-}
-
 .socialIcons img {
 	height: 75%;
+	padding: 5px;
 }
 
 .footer {
