@@ -23,7 +23,7 @@ class Contact extends Component {
 	      message: this.state.message
 	  }
 	  
-	  axios.post('https://nodejs-express-gml22oclh.now.sh/', data)
+	  axios.post('https://nodejs-express.scrambledlegs39.now.sh/', data)
 	  .then( res => {
 	      this.setState({ sent: true }, this.resetForm())
 	  })
@@ -57,7 +57,7 @@ class Contact extends Component {
 						  <input 
 						  	onChange={e => this.setState({ name: e.target.value})} 
 						  	name="name" 
-						  	class="message-name" 
+						  	className="message-name" 
 						  	type="text" 
 						  	placeholder="Name" 
 						  	value={this.state.name}
@@ -65,7 +65,7 @@ class Contact extends Component {
 						  <input 
 						  	onChange={(e) => this.setState({ email: e.target.value})} 
 						  	name="email" 
-						  	class="message-email" 
+						  	className="message-email" 
 						  	type="email" 
 						  	placeholder="Email" 
 						  	required value={this.state.email} 
@@ -73,7 +73,7 @@ class Contact extends Component {
 						  <textarea 
 						  	onChange={e => this.setState({ message: e.target.value})} 
 						  	name="message" 
-						  	class="message-input" 
+						  	className="message-input" 
 						  	type="text" 
 						  	placeholder="Your message" 
 						  	value={this.state.message} 
