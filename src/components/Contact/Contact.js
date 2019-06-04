@@ -49,15 +49,15 @@ class Contact extends Component {
 				</div>
 				<div className='contactBody'>
 					<div className='inputForm'>
-						Have a question or want to work together?
+						<p>Have a question or want to work together?</p>
 						<form 
-							className="contact-form" 
+							className="contactForm" 
 							onSubmit={ (e) => this.formSubmit(e)}
 						>
 						  <input 
 						  	onChange={e => this.setState({ name: e.target.value})} 
 						  	name="name" 
-						  	className="message-name" 
+						  	className="messageName" 
 						  	type="text" 
 						  	placeholder="Name" 
 						  	value={this.state.name}
@@ -65,7 +65,7 @@ class Contact extends Component {
 						  <input 
 						  	onChange={(e) => this.setState({ email: e.target.value})} 
 						  	name="email" 
-						  	className="message-email" 
+						  	className="messageEmail" 
 						  	type="email" 
 						  	placeholder="Email" 
 						  	required value={this.state.email} 
@@ -73,16 +73,16 @@ class Contact extends Component {
 						  <textarea 
 						  	onChange={e => this.setState({ message: e.target.value})} 
 						  	name="message" 
-						  	className="message-input" 
+						  	className="messageInput" 
 						  	type="text" 
 						  	placeholder="Your message" 
 						  	value={this.state.message} 
 						  	required
 						  />
-						  <div className="button--container">
+						  <div className="buttonContainer">
 						      <button 
 						      	type="submit" 
-						      	className="button button-primary"
+						      	className="buttonPrimary"
 						      >
 						      	{ this.state.buttonText }
 						      </button>
