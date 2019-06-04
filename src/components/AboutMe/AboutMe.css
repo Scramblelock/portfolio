@@ -17,3 +17,8 @@
 	text-align: center;
 	padding: 0 10% 0 10%;
 }
+
+.touchLink {
+	text-decoration: none;
+	color: black;
+}
