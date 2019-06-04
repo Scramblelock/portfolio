@@ -10,7 +10,7 @@ import locking4life from './Images/locking4life.png';
 const Projects = () => {
 
 	return (
-		<div className='projects'>
+		<div className='projects' id='projects'>
 			<div className='header'>
 				Projects
 			</div>
