@@ -10,6 +10,10 @@
 	height: 75%;
 }
 
+.footer {
+	margin-bottom: 5%;
+}
+
 .footer p {
 	font-family: Avenir Next;
 	font-size: 20px;
