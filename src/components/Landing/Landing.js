@@ -20,7 +20,7 @@ const Landing = () => {
 	return (
 		<div className='welcomePage'>
 			<div className='textHello'>
-				Hello. my name is
+				Hello. My name is
 			</div>
 			<Slider 
 				className='slider' 
