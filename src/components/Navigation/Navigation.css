@@ -17,12 +17,12 @@
 
 .navBar li {
 	display: flex;
-	padding: 8px 15px;
-	font-size: 20px;
+	padding: 1% 1%;
+	font-size: 1em;
 }
 
 .menuItems {
-	margin-right: 5%;
+	margin-right: 3%;
 }
 
 .navBar a {
