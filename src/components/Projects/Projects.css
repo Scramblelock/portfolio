@@ -13,6 +13,12 @@
 	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 }
 
+@media (min-width: 1400px) {
+  .projectGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 .projectBox {
 	position: relative;
 	display: inline-block;
@@ -47,4 +53,5 @@
 
 .projectBox img {
 	width: 100%;
+  display: block;
 }
