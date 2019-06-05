@@ -16,6 +16,18 @@
 	font-size: 20px;
 }
 
+@media (min-width: 900px) {
+	.skillsList {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (min-width: 1050px) {
+	.skillsList {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+
 .skillsList ul {
 	padding-left: 0;
 }
