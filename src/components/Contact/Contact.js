@@ -20,7 +20,8 @@ class Contact extends Component {
 	  let data = {
 	      name: this.state.name,
 	      email: this.state.email,
-	      message: this.state.message
+	      message: this.state.message,
+	      headers: { 'Access-Control-Allow-Origin':'*'}
 	  }
 	  
 	  axios.post('https://nodejs-express.scrambledlegs39.now.sh/api/v1', data)
