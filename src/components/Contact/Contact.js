@@ -24,7 +24,7 @@ class Contact extends Component {
 	      headers: { 'Access-Control-Allow-Origin':'*'}
 	  }
 	  
-	  axios.post('https://nodejs-express.scrambledlegs39.now.sh/api/v1', data)
+	  axios.post('http://localhost:4444/api/v1', data)
 	  .then( res => {
 	      this.setState({ sent: true }, this.resetForm())
 	  })
