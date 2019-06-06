@@ -21,9 +21,10 @@ const Projects = () => {
 						target='_blank' 
 						rel='noopener noreferrer'
 					>
-						<img src={krang} alt=''/>
-						<div className='overlay'>
-							Smart Brain
+						<div className='contentOverlay'></div>
+						<img className='contentImage' src={krang} alt=''/>
+						<div className='contentDetails fadeInBottom'>
+							<h3>Smart Brain</h3>
 							<p>React + Node.js + PostgreSQL</p>
 						</div>
 					</a>
@@ -34,9 +35,10 @@ const Projects = () => {
 						target='_blank' 
 						rel='noopener noreferrer'
 					>
-						<img src={robot} alt=''/>
-						<div className='overlay'>
-							Robofriends
+						<div className='contentOverlay'></div>
+						<img className='contentImage' src={robot} alt=''/>
+						<div className='contentDetails fadeInBottom'>
+							<h3>Robofriends</h3>
 							<p>React + Redux</p>
 						</div>
 					</a>
@@ -47,9 +49,10 @@ const Projects = () => {
 						target='_blank' 
 						rel='noopener noreferrer'
 					>
-						<img src={hackthenews} alt=''/>
-						<div className='overlay'>
-							Hack The News
+						<div className='contentOverlay'></div>
+						<img className='contentImage' src={hackthenews} alt=''/>
+						<div className='contentDetails fadeInBottom'>
+							<h3>Hack The News</h3>
 							<p>React + Axios</p>
 						</div>
 					</a>
@@ -60,9 +63,10 @@ const Projects = () => {
 						target='_blank' 
 						rel='noopener noreferrer'
 					>
-						<img src={toronto} alt=''/>
-						<div className='overlay'>
-							Toronto Waste Lookup
+						<div className='contentOverlay'></div>
+						<img className='contentImage' src={toronto} alt=''/>
+						<div className='contentDetails fadeInBottom'>
+							<h3>Toronto Waste Lookup</h3>
 							<p>React</p>
 						</div>
 					</a>
@@ -73,9 +77,10 @@ const Projects = () => {
 						target='_blank' 
 						rel='noopener noreferrer'
 					>
-						<img src={huddle} alt=''/>
-						<div className='overlay'>
-							Huddle
+						<div className='contentOverlay'></div>
+						<img className='contentImage' src={huddle} alt=''/>
+						<div className='contentDetails fadeInBottom'>
+							<h3>Huddle</h3>
 							<p>HTML + CSS + Bootstrap</p>
 						</div>
 					</a>
@@ -86,9 +91,10 @@ const Projects = () => {
 						target='_blank' 
 						rel='noopener noreferrer'
 					>
-						<img src={locking4life} alt=''/>
-						<div className='overlay'>
-							Scramblelock
+						<div className='contentOverlay'></div>
+						<img className='contentImage' src={locking4life} alt=''/>
+						<div className='contentDetails fadeInBottom'>
+							<h3>Scramblelock</h3>
 							<p>Wordpress + HTML + CSS</p>
 						</div>
 					</a>
