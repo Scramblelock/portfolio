@@ -18,13 +18,12 @@ class Contact extends Component {
 	  this.setState({ buttonText: '...sending' })
 
 	  let data = {
-	      name: this.state.name,
-	      email: this.state.email,
-	      message: this.state.message,
-	      headers: { 'Access-Control-Allow-Origin':'*'}
+      name: this.state.name,
+      email: this.state.email,
+      message: this.state.message
 	  }
 	  
-	  axios.post('http://localhost:4444/api/v1', data)
+	  axios.post('https://nodejs-express.scrambledlegs39.now.sh/api/v1', data)
 	  .then( res => {
 	      this.setState({ sent: true }, this.resetForm())
 	  })
