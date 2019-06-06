@@ -23,7 +23,7 @@ class Contact extends Component {
 	      message: this.state.message
 	  }
 	  
-	  axios.post('https://create-react-app.scrambledlegs39.now.sh/api/v1', data)
+	  axios.post('https://nodejs-express.scrambledlegs39.now.sh:4444/api/v1', data)
 	  .then( res => {
 	      this.setState({ sent: true }, this.resetForm())
 	  })
@@ -70,7 +70,7 @@ class Contact extends Component {
 						  	placeholder="Email" 
 						  	required value={this.state.email} 
 						  />
-						  <textarea 
+						  <input 
 						  	onChange={e => this.setState({ message: e.target.value})} 
 						  	name="message" 
 						  	className="messageInput" 
