@@ -60,6 +60,10 @@
   top: 50%;
   left: 50%;
   opacity: 0;
+  color: black;
+  font-family: AvenirNext-Regular;
+  letter-spacing: -0.38px;
+  font-weight: 600;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -74,9 +78,6 @@
   opacity: 1;
   font-size: 20px;
   text-align: center;
-  font-family: AvenirNext-Regular;
-  letter-spacing: -0.38px;
-  font-weight: 600;
 }
 
 .fadeInBottom{
