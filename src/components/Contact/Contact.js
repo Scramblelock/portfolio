@@ -23,7 +23,7 @@ class Contact extends Component {
 	      message: this.state.message
 	  }
 	  
-	  axios.post('https://nodejs-express-gml22oclh.now.sh:4444/api/v1', data)
+	  axios.post('https://nodejs-express-gml22oclh.now.sh/api/v1', data)
 	  .then( res => {
 	      this.setState({ sent: true }, this.resetForm())
 	  })
