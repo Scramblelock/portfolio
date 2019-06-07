@@ -11,7 +11,7 @@ class Contact extends Component {
 		sent: false,
 		buttonText: 'Send Message'
 	}
-	
+
 	formSubmit = (e) => {
 	  e.preventDefault();
 
@@ -60,7 +60,7 @@ class Contact extends Component {
 				</div>
 				<div className='contactBody'>
 					<div className='inputForm'>
-						<p>Have a question or want to work together? Get in touch!</p>
+						<p>Have a question or want to work together?</p>
 						<form 
 							className="contactForm" 
 							method="POST"
