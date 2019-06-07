@@ -23,7 +23,7 @@ class Contact extends Component {
 	  
 	  axios({
       method: "POST", 
-      url:"http://localhost:3002/send", 
+      url:"https://serene-journey-78930.herokuapp.com/send", 
       data: {
       	name: name,
       	email: email,
