@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.04de7413.chunk.css",
+    "main.js": "/static/js/main.6aa2a610.chunk.js",
+    "main.js.map": "/static/js/main.6aa2a610.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.d4c5f937.chunk.css": "/static/css/2.d4c5f937.chunk.css",
+    "static/js/2.1d99b7cc.chunk.js": "/static/js/2.1d99b7cc.chunk.js",
+    "static/js/2.1d99b7cc.chunk.js.map": "/static/js/2.1d99b7cc.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a1ed22e4f72867d37c8184bfa255fef0.js": "/precache-manifest.a1ed22e4f72867d37c8184bfa255fef0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.d4c5f937.chunk.css.map": "/static/css/2.d4c5f937.chunk.css.map",
+    "static/css/main.04de7413.chunk.css.map": "/static/css/main.04de7413.chunk.css.map",
+    "static/media/canadianTuxedo.jpg": "/static/media/canadianTuxedo.a2b56f65.jpg",
+    "static/media/hackthenews.png": "/static/media/hackthenews.7601475d.png",
+    "static/media/huddle.png": "/static/media/huddle.1d4e23da.png",
+    "static/media/krangfull.png": "/static/media/krangfull.2199183e.png",
+    "static/media/locking4life.png": "/static/media/locking4life.14a1e96e.png",
+    "static/media/marcLogo.png": "/static/media/marcLogo.5c3ca6e3.png",
+    "static/media/robofriends.png": "/static/media/robofriends.07877978.png",
+    "static/media/toronto.png": "/static/media/toronto.691d4f16.png"
+  }
+}
