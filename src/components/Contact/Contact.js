@@ -60,7 +60,7 @@ class Contact extends Component {
 				</div>
 				<div className='contactBody'>
 					<div className='inputForm'>
-						<p>Have a question or want to work together?</p>
+						<p>Have a question or want to work together? Get in touch!</p>
 						<form 
 							className="contactForm" 
 							method="POST"
