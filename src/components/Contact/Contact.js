@@ -17,15 +17,26 @@ class Contact extends Component {
 
 	  this.setState({ buttonText: '...sending' })
 
-	  let data = {
-      name: this.state.name,
-      email: this.state.email,
-      message: this.state.message
-	  }
+	  const name = this.state.name;
+	  const email = this.state.email;
+	  const message = this.state.message;
 	  
-	  axios.post('https://nodejs-express.scrambledlegs39.now.sh/api/v1', data)
+	  axios({
+      method: "POST", 
+      url:"http://localhost:3002/send", 
+      data: {
+      	name: name,
+      	email: email,
+      	message: message
+      }
+    })
 	  .then( res => {
-	      this.setState({ sent: true }, this.resetForm())
+      if (res.data.msg === 'success'){
+        this.setState({ sent: true }); 
+        this.resetForm();
+      } else if (res.data.msg === 'fail') {
+        	console.log('Message not sent');
+      	}
 	  })
 	  .catch( () => {
 	    console.log('Message not sent')
@@ -52,7 +63,8 @@ class Contact extends Component {
 						<p>Have a question or want to work together?</p>
 						<form 
 							className="contactForm" 
-							onSubmit={ (e) => this.formSubmit(e)}
+							method="POST"
+							onSubmit={this.formSubmit.bind(this)}
 						>
 						  <input 
 						  	onChange={e => this.setState({ name: e.target.value})} 
