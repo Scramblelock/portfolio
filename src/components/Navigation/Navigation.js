@@ -23,6 +23,7 @@ class Navigation extends Component {
 					</li>
 	        <li className='menuItems'> 
 	        	<Link
+              className='link'
               activeClass="active"
               to="about"
               spy={true}
@@ -35,6 +36,7 @@ class Navigation extends Component {
           </li>
           <li className='menuItems'> 
 	        	<Link
+              className='link'
               activeClass="active"
               to="projects"
               spy={true}
@@ -47,6 +49,7 @@ class Navigation extends Component {
           </li>
           <li className='menuItems'> 
 	        	<Link
+              className='link'
               activeClass="active"
               to="skills"
               spy={true}
@@ -59,6 +62,7 @@ class Navigation extends Component {
           </li>
           <li className='menuItems'> 
 	        	<Link
+              className='link'
               activeClass="active"
               to="contact"
               spy={true}
