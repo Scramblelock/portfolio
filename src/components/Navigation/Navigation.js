@@ -1,20 +1,78 @@
-import React from 'react';
+import React, { Component } from 'react';
 import marcLogo from './marcLogo.png';
 import './Navigation.css';
+import { Link, animateScroll as scroll } from "react-scroll";
 
-const Navigation = () => {
+class Navigation extends Component {
 
-	return (
-		<div>
-			<ul className='navBar'>
-				<li className='logo'><a href="/"><img className='marcLogo' alt='marcLogo' src={marcLogo}/></a></li>
-        <li className='menuItems'><a href="#about">About</a></li>
-        <li className='menuItems'><a href="#projects">Projects</a></li>
-        <li className='menuItems'><a href="#skills">Skills</a></li>
-        <li className='menuItems'><a href="#contact">Contact</a></li>
-			</ul>
-		</div>
-	);
+	scrollToTop = () => {
+    scroll.scrollToTop();
+  };
+
+	render() {
+		return (
+			<div>
+				<ul className='navBar'>
+					<li className='logo'>
+						<img 
+							className='marcLogo' 
+							alt='marcLogo' 
+							src={marcLogo} 
+							onClick={this.scrollToTop}
+						/>
+					</li>
+	        <li className='menuItems'> 
+	        	<Link
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              About
+            </Link>
+          </li>
+          <li className='menuItems'> 
+	        	<Link
+              activeClass="active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Projects
+            </Link>
+          </li>
+          <li className='menuItems'> 
+	        	<Link
+              activeClass="active"
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Skills
+            </Link>
+          </li>
+          <li className='menuItems'> 
+	        	<Link
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Contact
+            </Link>
+          </li>
+				</ul>
+			</div>
+		);
+	}
 };
 
 export default Navigation;

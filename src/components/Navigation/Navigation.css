@@ -25,9 +25,12 @@
 	margin-right: 3%;
 }
 
-.navBar a {
-	text-decoration: none;
-	color: black;
+.menuItems, .marcLogo {
+	cursor: pointer;
+}
+
+.menuItems > .active {
+  border-bottom: 1px solid #333;
 }
 
 .logo {
