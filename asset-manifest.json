@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.2bf08fe8.chunk.css",
+    "main.css": "/static/css/main.f85639c9.chunk.css",
     "main.js": "/static/js/main.db5a8499.chunk.js",
     "main.js.map": "/static/js/main.db5a8499.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
@@ -9,10 +9,10 @@
     "static/js/2.672e5ea2.chunk.js": "/static/js/2.672e5ea2.chunk.js",
     "static/js/2.672e5ea2.chunk.js.map": "/static/js/2.672e5ea2.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.efd7c642331c4258d3bf5032df5fc3e2.js": "/precache-manifest.efd7c642331c4258d3bf5032df5fc3e2.js",
+    "precache-manifest.92b6f77218f4193830b6257a1c6bf0ad.js": "/precache-manifest.92b6f77218f4193830b6257a1c6bf0ad.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d4c5f937.chunk.css.map": "/static/css/2.d4c5f937.chunk.css.map",
-    "static/css/main.2bf08fe8.chunk.css.map": "/static/css/main.2bf08fe8.chunk.css.map",
+    "static/css/main.f85639c9.chunk.css.map": "/static/css/main.f85639c9.chunk.css.map",
     "static/media/canadianTuxedo.jpg": "/static/media/canadianTuxedo.a2b56f65.jpg",
     "static/media/hackthenews.png": "/static/media/hackthenews.7601475d.png",
     "static/media/huddle.png": "/static/media/huddle.1d4e23da.png",
