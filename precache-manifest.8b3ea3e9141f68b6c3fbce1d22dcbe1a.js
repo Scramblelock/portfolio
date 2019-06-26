@@ -1,27 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e2abad5d23be103667af6a14eab8e979",
+    "revision": "1009af8bc89050dbe80839dc71797b07",
     "url": "/index.html"
   },
   {
-    "revision": "c170cd1f78b158d647e3",
+    "revision": "89c90753e534127150fc",
     "url": "/static/css/2.d4c5f937.chunk.css"
   },
   {
-    "revision": "3c2d2dbc471db90b2451",
-    "url": "/static/css/main.145be78c.chunk.css"
+    "revision": "932d9dc5a9085f13dfe2",
+    "url": "/static/css/main.b84bb3d0.chunk.css"
   },
   {
-    "revision": "c170cd1f78b158d647e3",
-    "url": "/static/js/2.672e5ea2.chunk.js"
+    "revision": "89c90753e534127150fc",
+    "url": "/static/js/2.2181599d.chunk.js"
   },
   {
-    "revision": "3c2d2dbc471db90b2451",
-    "url": "/static/js/main.79a062bb.chunk.js"
+    "revision": "932d9dc5a9085f13dfe2",
+    "url": "/static/js/main.df52a78b.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
+  },
+  {
+    "revision": "c67f8637fa0b9a40a431e97233aa6ec7",
+    "url": "/static/media/MarcBrush.c67f8637.png"
+  },
+  {
+    "revision": "d677abbc8355ce335af4e310081f5830",
+    "url": "/static/media/MarcCode.d677abbc.png"
+  },
+  {
+    "revision": "373efe6e1da3625912b8cc0e850c38c7",
+    "url": "/static/media/MarcGraf1.373efe6e.png"
   },
   {
     "revision": "a2b56f651762d11508d4db5482ed0387",
