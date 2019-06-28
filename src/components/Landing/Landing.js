@@ -9,10 +9,10 @@ import './Landing.css';
 
 const content = [
 	{
-		image: MarcBrush
+		image: MarcCode
 	},
 	{
-		image: MarcCode
+		image: MarcBrush
 	},
 	{
 		image: MarcGraf1
