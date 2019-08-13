@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "207be91098f0c1e8fc61d2c7338c1df7",
+    "revision": "0813dcd46d190705209afa7ab961395e",
     "url": "/index.html"
   },
   {
-    "revision": "89c90753e534127150fc",
+    "revision": "2aad636d4b45dfdd8aca",
     "url": "/static/css/2.d4c5f937.chunk.css"
   },
   {
-    "revision": "2cee94cd713e02a6409c",
-    "url": "/static/css/main.b84bb3d0.chunk.css"
+    "revision": "1d3d708c21be609ca97b",
+    "url": "/static/css/main.d7eeef0e.chunk.css"
   },
   {
-    "revision": "89c90753e534127150fc",
-    "url": "/static/js/2.2181599d.chunk.js"
+    "revision": "2aad636d4b45dfdd8aca",
+    "url": "/static/js/2.fa026adf.chunk.js"
   },
   {
-    "revision": "2cee94cd713e02a6409c",
-    "url": "/static/js/main.a367bfc3.chunk.js"
+    "revision": "1d3d708c21be609ca97b",
+    "url": "/static/js/main.84b4d807.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -58,6 +58,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5c3ca6e386b04b05974c70aa01c591a1",
     "url": "/static/media/marcLogo.5c3ca6e3.png"
+  },
+  {
+    "revision": "6bd511474ddfca1a37c377228e53976f",
+    "url": "/static/media/nekofudo.6bd51147.png"
+  },
+  {
+    "revision": "a6f426b2577478cc7148ca4009cc2e62",
+    "url": "/static/media/osheaga.a6f426b2.png"
   },
   {
     "revision": "07877978f966f0a02e42bfc2de847123",
