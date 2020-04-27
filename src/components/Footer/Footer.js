@@ -19,7 +19,7 @@ const Footer = () => {
 				<li><a href='https://twitter.com/Scramblelock' target="_blank" rel="noopener noreferrer"><img src={twitter} alt=''/></a></li>
 				<li><a href='mailto:scramblelock@gmail.com'><img src={gmail} alt=''/></a></li>
 			</ul>
-			<p>MARC SAKALAUSKAS © 2019</p>
+			<p>MARC SAKALAUSKAS © 2020</p>
 		</div>
 	);
 };
