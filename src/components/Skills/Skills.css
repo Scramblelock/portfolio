@@ -1,43 +1,43 @@
 .skills {
-	padding: 10% 0 20% 0;
+  padding: 10% 0 20% 0;
 }
 
 .header {
-	font-family: Helvetica Neue;
-	font-weight: bold;
-	font-size: 36px;
-	padding: 10%;
+  font-family: Helvetica Neue;
+  font-weight: bold;
+  font-size: 36px;
+  padding: 10%;
 }
 
 .skillsList {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-	font-family: AvenirNext-Regular;
-	font-size: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  font-family: AvenirNext-Regular;
+  font-size: 20px;
 }
 
 @media (min-width: 900px) {
-	.skillsList {
-		grid-template-columns: 1fr 1fr;
-	}
+  .skillsList {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (min-width: 1050px) {
-	.skillsList {
-		grid-template-columns: repeat(4, 1fr);
-	}
+  .skillsList {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 .skillsList ul {
-	padding-left: 0;
+  padding-left: 0;
 }
 
 .skillsList li {
-	list-style: none;
-	padding: 15px 0;
+  list-style: none;
+  padding: 15px 0;
 }
 
 .title {
-	font-size: 25px;
-	font-weight: 600;
+  font-size: 25px;
+  font-weight: 600;
 }

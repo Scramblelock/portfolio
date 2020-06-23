@@ -1,15 +1,15 @@
 .welcomePage {
-	width:100%;
-	height: 100%;
-	top: 50%;
-	margin-top: 20%;
-	margin-bottom: 20%;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  margin-top: 20%;
+  margin-bottom: 20%;
 }
 
 .textHello {
-	font-family: Helvetica;
-	font-size: 52px;
-	float: left;
-	padding-left: 5%;
-	font-weight: bold;
+  font-family: Helvetica;
+  font-size: 52px;
+  float: left;
+  padding-left: 5%;
+  font-weight: bold;
 }

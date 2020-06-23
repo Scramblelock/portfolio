@@ -1,32 +1,33 @@
 .marcLogo {
-	height: 3em;
+  height: 3em;
 }
 
 .navBar {
-	width: 100%;
-	margin: 0 0 3em 0;
-	padding: 0;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	position: fixed;
-	z-index: 5;
-	top: 0;
-	background: white;
+  width: 100%;
+  margin: 0 0 3em 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  background: white;
 }
 
 .navBar li {
-	display: flex;
-	padding: 1% 1%;
-	font-size: 1em;
+  display: flex;
+  padding: 1% 1%;
+  font-size: 1em;
 }
 
 .menuItems {
-	margin-right: 3%;
+  margin-right: 3%;
 }
 
-.link, .marcLogo {
-	cursor: pointer;
+.link,
+.marcLogo {
+  cursor: pointer;
 }
 
 .menuItems > .active {
@@ -34,5 +35,5 @@
 }
 
 .logo {
-	flex:1;
+  flex: 1;
 }
