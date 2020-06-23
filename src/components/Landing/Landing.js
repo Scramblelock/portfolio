@@ -20,10 +20,10 @@ const content = [
 
 const Landing = () => {
   return (
-    <div className='welcomePage'>
-      <div className='textHello'>Hello. My name is</div>
+    <div className="welcomePage">
+      <div className="textHello">Hello. My name is</div>
       <Slider
-        className='slider'
+        className="slider"
         autoplay={3000}
         previousButton={null}
         nextButton={null}
@@ -35,7 +35,8 @@ const Landing = () => {
               background: `url('${item.image}') no-repeat center center`,
               backgroundSize: `contain`,
             }}
-          ></div>
+          >
+          </div>
         ))}
       </Slider>
     </div>

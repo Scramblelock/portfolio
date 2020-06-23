@@ -11,20 +11,20 @@ class Navigation extends Component {
   render() {
     return (
       <div>
-        <ul className='navBar'>
-          <li className='logo'>
+        <ul className="navBar">
+          <li className="logo">
             <img
-              className='marcLogo'
-              alt='marcLogo'
+              className="marcLogo"
+              alt="marcLogo"
               src={marcLogo}
               onClick={this.scrollToTop}
             />
           </li>
-          <li className='menuItems'>
+          <li className="menuItems">
             <Link
-              className='link'
-              activeClass='active'
-              to='about'
+              className="link"
+              activeClass="active"
+              to="about"
               spy={true}
               smooth={true}
               offset={-70}
@@ -33,11 +33,11 @@ class Navigation extends Component {
               About
             </Link>
           </li>
-          <li className='menuItems'>
+          <li className="menuItems">
             <Link
-              className='link'
-              activeClass='active'
-              to='projects'
+              className="link"
+              activeClass="active"
+              to="projects"
               spy={true}
               smooth={true}
               offset={-70}
@@ -46,11 +46,11 @@ class Navigation extends Component {
               Projects
             </Link>
           </li>
-          <li className='menuItems'>
+          <li className="menuItems">
             <Link
-              className='link'
-              activeClass='active'
-              to='skills'
+              className="link"
+              activeClass="active"
+              to="skills"
               spy={true}
               smooth={true}
               offset={-70}
@@ -59,11 +59,11 @@ class Navigation extends Component {
               Skills
             </Link>
           </li>
-          <li className='menuItems'>
+          <li className="menuItems">
             <Link
-              className='link'
-              activeClass='active'
-              to='contact'
+              className="link"
+              activeClass="active"
+              to="contact"
               spy={true}
               smooth={true}
               offset={-70}

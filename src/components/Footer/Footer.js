@@ -9,56 +9,56 @@ import twitter from "./Social/twitter-logo-button.png";
 
 const Footer = () => {
   return (
-    <div className='footer'>
-      <ul className='socialIcons'>
+    <div className="footer">
+      <ul className="socialIcons">
         <li>
           <a
-            href='https://www.linkedin.com/in/scramblelock/'
-            target='_blank'
-            rel='noopener noreferrer'
+            href="https://www.linkedin.com/in/scramblelock/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <img src={linkedin} alt='' />
+            <img src={linkedin} alt="" />
           </a>
         </li>
         <li>
           <a
-            href='https://github.com/Scramblelock'
-            target='_blank'
-            rel='noopener noreferrer'
+            href="https://github.com/Scramblelock"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <img src={github} alt='' />
+            <img src={github} alt="" />
           </a>
         </li>
         <li>
           <a
-            href='https://www.facebook.com/scramblelock'
-            target='_blank'
-            rel='noopener noreferrer'
+            href="https://www.facebook.com/scramblelock"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <img src={facebook} alt='' />
+            <img src={facebook} alt="" />
           </a>
         </li>
         <li>
           <a
-            href='https://www.instagram.com/scramblelock/'
-            target='_blank'
-            rel='noopener noreferrer'
+            href="https://www.instagram.com/scramblelock/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <img src={instagram} alt='' />
+            <img src={instagram} alt="" />
           </a>
         </li>
         <li>
           <a
-            href='https://twitter.com/Scramblelock'
-            target='_blank'
-            rel='noopener noreferrer'
+            href="https://twitter.com/Scramblelock"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <img src={twitter} alt='' />
+            <img src={twitter} alt="" />
           </a>
         </li>
         <li>
-          <a href='mailto:scramblelock@gmail.com'>
-            <img src={gmail} alt='' />
+          <a href="mailto:scramblelock@gmail.com">
+            <img src={gmail} alt="" />
           </a>
         </li>
       </ul>

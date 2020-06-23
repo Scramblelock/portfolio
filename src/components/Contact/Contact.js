@@ -54,51 +54,51 @@ class Contact extends Component {
 
   render() {
     return (
-      <div className='contact' id='contact'>
-        <div className='header'>Contact</div>
-        <div className='contactBody'>
-          <div className='inputForm'>
+      <div className="contact" id="contact">
+        <div className="header">Contact</div>
+        <div className="contactBody">
+          <div className="inputForm">
             <p>Have a question or want to work together?</p>
             <form
-              className='contactForm'
-              method='POST'
+              className="contactForm"
+              method="POST"
               onSubmit={this.formSubmit.bind(this)}
             >
               <input
                 onChange={(e) => this.setState({ name: e.target.value })}
-                name='name'
-                className='messageName'
-                type='text'
-                placeholder='Name'
+                name="name"
+                className="messageName"
+                type="text"
+                placeholder="Name"
                 value={this.state.name}
               />
               <input
                 onChange={(e) => this.setState({ email: e.target.value })}
-                name='email'
-                className='messageEmail'
-                type='email'
-                placeholder='Email'
+                name="email"
+                className="messageEmail"
+                type="email"
+                placeholder="Email"
                 required
                 value={this.state.email}
               />
               <input
                 onChange={(e) => this.setState({ message: e.target.value })}
-                name='message'
-                className='messageInput'
-                type='text'
-                placeholder='Your message'
+                name="message"
+                className="messageInput"
+                type="text"
+                placeholder="Your message"
                 value={this.state.message}
                 required
               />
-              <div className='buttonContainer'>
-                <button type='submit' className='buttonPrimary'>
+              <div className="buttonContainer">
+                <button type="submit" className="buttonPrimary">
                   {this.state.buttonText}
                 </button>
               </div>
             </form>
           </div>
-          <div className='photo'>
-            <img src={canadianTuxedo} alt='' />
+          <div className="photo">
+            <img src={canadianTuxedo} alt="" />
           </div>
         </div>
       </div>
