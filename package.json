@@ -5,6 +5,7 @@
   "homepage": "https://scramblelock.github.io",
   "dependencies": {
     "axios": "^0.19.0",
+    "date-fns": "^2.14.0",
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-animated-slider": "^1.1.4",
