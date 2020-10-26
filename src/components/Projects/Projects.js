@@ -8,6 +8,7 @@ import huddle from "./Images/huddle.png";
 import locking4life from "./Images/locking4life.png";
 import nekofudo from "./Images/nekofudo.png";
 import osheaga from "./Images/osheaga.png";
+import zezin from "./Images/zezin.png";
 
 const Projects = () => {
   return (
@@ -109,6 +110,20 @@ const Projects = () => {
             <div className="contentDetails fadeInBottom">
               <h3>Huddle</h3>
               <p>HTML + CSS + Bootstrap</p>
+            </div>
+          </a>
+        </div>
+        <div className="projectBox">
+          <a
+            href="https://cafezezin.ca"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="contentOverlay" />
+            <img className="contentImage" src={zezin} alt="" />
+            <div className="contentDetails fadeInBottom">
+              <h3>Cafe Zezin</h3>
+              <p>Wordpress + HTML + CSS</p>
             </div>
           </a>
         </div>
