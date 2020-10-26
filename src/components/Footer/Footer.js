@@ -6,7 +6,7 @@ import facebook from "./Social/facebook-logo-button.png";
 import github from "./Social/github-logo.png";
 import instagram from "./Social/instagram.png";
 import linkedin from "./Social/linkedin.png";
-import twitter from "./Social/twitter-logo-button.png";
+import medium from "./Social/medium.png";
 
 import "./Footer.css";
 
@@ -52,11 +52,11 @@ const Footer = () => {
         </li>
         <li>
           <a
-            href='https://twitter.com/Scramblelock'
+            href='https://medium.com/@scramblelock'
             target='_blank'
             rel='noopener noreferrer'
           >
-            <img src={twitter} alt='' />
+            <img src={medium} alt='' />
           </a>
         </li>
         <li>
