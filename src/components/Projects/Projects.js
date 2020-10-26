@@ -9,6 +9,7 @@ import locking4life from "./Images/locking4life.png";
 import nekofudo from "./Images/nekofudo.png";
 import osheaga from "./Images/osheaga.png";
 import zezin from "./Images/zezin.png";
+import nasa from "./Images/nasa.png";
 
 const Projects = () => {
   return (
@@ -26,6 +27,34 @@ const Projects = () => {
             <div className="contentDetails fadeInBottom">
               <h3>Smart Brain</h3>
               <p>React + Node.js + PostgreSQL</p>
+            </div>
+          </a>
+        </div>
+        <div className="projectBox">
+          <a
+            href="http://18.191.226.60:8000/index.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="contentOverlay" />
+            <img className="contentImage" src={nasa} alt="" />
+            <div className="contentDetails fadeInBottom">
+              <h3>NASA Mission Control</h3>
+              <p>Deno + EC2 + Docker</p>
+            </div>
+          </a>
+        </div>
+        <div className="projectBox">
+          <a
+            href="https://chingu-voyages.github.io/v10-geckos-team-02/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="contentOverlay" />
+            <img className="contentImage" src={nekofudo} alt="" />
+            <div className="contentDetails fadeInBottom">
+              <h3>Neko Fudo</h3>
+              <p>React + CSS (Group Project)</p>
             </div>
           </a>
         </div>
@@ -54,20 +83,6 @@ const Projects = () => {
             <div className="contentDetails fadeInBottom">
               <h3>Hack The News</h3>
               <p>React + Axios</p>
-            </div>
-          </a>
-        </div>
-        <div className="projectBox">
-          <a
-            href="https://chingu-voyages.github.io/v10-geckos-team-02/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className="contentOverlay" />
-            <img className="contentImage" src={nekofudo} alt="" />
-            <div className="contentDetails fadeInBottom">
-              <h3>Neko Fudo</h3>
-              <p>React + CSS (Group Project)</p>
             </div>
           </a>
         </div>
