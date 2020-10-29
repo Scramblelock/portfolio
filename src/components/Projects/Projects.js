@@ -10,6 +10,7 @@ import nekofudo from "./Images/nekofudo.png";
 import osheaga from "./Images/osheaga.png";
 import zezin from "./Images/zezin.png";
 import nasa from "./Images/nasa.png";
+import crown from "./Images/crown.png";
 
 const Projects = () => {
   return (
@@ -41,6 +42,20 @@ const Projects = () => {
             <div className="contentDetails fadeInBottom">
               <h3>NASA Mission Control</h3>
               <p>Deno + EC2 + Docker</p>
+            </div>
+          </a>
+        </div>
+        <div className="projectBox">
+          <a
+            href="https://crwn-clothingltd.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="contentOverlay" />
+            <img className="contentImage" src={crown} alt="" />
+            <div className="contentDetails fadeInBottom">
+              <h3>Crown Clothing</h3>
+              <p>React + Redux + Firebase + Stripe</p>
             </div>
           </a>
         </div>
