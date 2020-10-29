@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f6899f8e2f411ebd15d574eb762e818e",
+    "revision": "9357974f80e1816c6630a8aec7df8ed6",
     "url": "/index.html"
   },
   {
-    "revision": "4dce9d9c85217f52b529",
+    "revision": "9c1070992000f104a38d",
     "url": "/static/css/2.b0d70484.chunk.css"
   },
   {
-    "revision": "786d29d7d258aff558d5",
+    "revision": "d061e9a334c9aa789571",
     "url": "/static/css/main.a49baa1e.chunk.css"
   },
   {
-    "revision": "4dce9d9c85217f52b529",
-    "url": "/static/js/2.dc45757f.chunk.js"
+    "revision": "9c1070992000f104a38d",
+    "url": "/static/js/2.d2dd3bc7.chunk.js"
   },
   {
-    "revision": "786d29d7d258aff558d5",
-    "url": "/static/js/main.e6b08b01.chunk.js"
+    "revision": "d061e9a334c9aa789571",
+    "url": "/static/js/main.02aceeba.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a2b56f651762d11508d4db5482ed0387",
     "url": "/static/media/canadianTuxedo.a2b56f65.jpg"
+  },
+  {
+    "revision": "7cc97e8945192fada39f016740fbbfac",
+    "url": "/static/media/crown.7cc97e89.png"
   },
   {
     "revision": "7601475d429d35f32dd9839ea1c7186a",
